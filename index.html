@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+    <section id="login_area"class="container" >
+        <div class="" id="login_area">
+            <h2 class="text-center welcome-h2">Welcome to Online Bank</h2>
+            <div class="login-box">
+                <h3>Login</h4>
+                <input type="email" name="" id="" placeholder="Email" class="form-control" required>
+                <br><br>
+                
+
+
+                <input type="password" name="" id="" placeholder="password" class="form-control" id="pwd" required>
+                <br><br>
+
+                <button id="login" class="btn btn-default btn-success btn-style">Enter</button>
+
+                
+            </div>
+        </div>
+    </section>
+
+    <div id="transaction-area">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="deposit status">
+                    <h5>Deposit</h5>
+                    <h2> $<span  id="current-deposit">00</span></h2>
+                </div>  
+            </div>
+            <div class="col-md-4">
+                <div class="withraw status">
+                    <h5>Withdraw</h5>
+                    <h2> $<span  id="current-withdraw">00</span></h2>    
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="balance status">
+                    <h5>Balance</h5>
+                    <h2> $<span  id="current-balance">1200</span></h2>        
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="submit-area login-box">
+                    <h4 class="ta-heading">deposit</h4>
+                    <input type="text" name="" id="deposit-amount" placeholder="$amount you want to deposit" class="form-control">
+                    <br>
+                    <br>
+                    <button id="deposit-btn" class="btn btn-success">deposit</button>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="submit-area login-box ">
+                    <h4 class="ta-heading">Withdraw</h4>
+                    <input type="text" name="" id="withdraw-amount" placeholder="$amount you want to withdraw" class="form-control">
+                    <br>
+                    <br>
+                    <button id="withdraw-btn" class="btn btn-success">Withdraw</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+               
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+<script src="script.js"></script>
+</body>
+</html>
